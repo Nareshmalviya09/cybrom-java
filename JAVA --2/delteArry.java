@@ -10,14 +10,14 @@ public static void main(String[] args) {
     int a[] = new int [size];
     System.out.println("enter elements of arrays");
     for(int i=0;i<size;i++){
-        a[i]=obj.nextInt();
+        a[i]=obj.nextInt();  //1,2,3,4,5
     }
     int loc;
       System.out.println("enter location of arrays whis you wnat to delete");
-        loc=obj.nextInt();
+        loc=obj.nextInt(); //2=3
 
     for(int i=loc;i<size-1;i++){
-        a[i]=a[i+1];
+        a[i]=a[i+1];  //2= 2+1=3
     }
     size--;
       System.out.println("elements of arrays");
