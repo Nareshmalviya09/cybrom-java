@@ -1,6 +1,6 @@
 public class ops4{
     public static void main(String[] args) {
-        person p= new person(25,);
+        person p= new person(25, null);
         p.output();
         
     }

@@ -10,6 +10,7 @@ public class swap
 
         a = obj.nextInt();
         b = obj.nextInt();
+        int temp;
 
         System.out.println("After swap value of A & B " +a+" "+b);
          
@@ -18,7 +19,7 @@ public class swap
     //     a = a ^ b;
     int c = a;
     a = b;
-    b = temp;    
+    
      System.out.print("After swap value of A & B " +a+" "+b);
 
     }

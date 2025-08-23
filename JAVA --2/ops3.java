@@ -17,6 +17,5 @@ class person{
         System.out.println("age = "+ age);
         System.out.println("name = "+ name);
     }
-out
 
 }

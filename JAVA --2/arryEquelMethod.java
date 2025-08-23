@@ -14,7 +14,7 @@ class arryEquelMethod{
         for (int i=0;i<a2.length;i++){
             a2[i]=obj.nextInt();
         }
-        boolean b = Arrays.equels(a,a2);
+        boolean b = Arrays.equals(a,a2);
         System.out.print(b);
     }
 }
