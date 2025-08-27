@@ -2,9 +2,9 @@ package Oops;
 
 public class ConstractorOverloading {
     public static void main(String[] args) {
-        a r=new A();
-        a r1=new A(50);
-        a r2=new A("naresh",30.96);
+        a r=new a();
+        a r1=new a(50);
+        a r2=new a("naresh",30.96);
         System.out.println(r.x +" "+ r.y+" " + r.z);
         System.out.println(r1.x);
         System.out.println(r2.y+" " + r2.z);
