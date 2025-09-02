@@ -1,5 +1,3 @@
-package function;
-
 public class findemaxArray {
     public static void main(String[] args) {
 

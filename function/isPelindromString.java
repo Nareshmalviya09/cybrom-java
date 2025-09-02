@@ -1,13 +1,9 @@
-package function;
-
 public class isPelindromString {
     
             public static void main(String[] args) {
                 String s="naman";
                 System.out.println(isPelindrom(s));
             }
-
-
     static boolean isPelindrom(String str){
 
         int start =0;
@@ -18,7 +14,6 @@ public class isPelindromString {
                 start++;
                 end--;   
         }
-        return true;
+            return true;
     }
-
 }

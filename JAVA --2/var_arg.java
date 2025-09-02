@@ -1,18 +1,17 @@
 public class var_arg {
-    static void add(int ...a){
-        int sum=0;
-        for(int x:a){
-            sum=sum+x;
+    static void add(String... a){
+         for (String name : a) {
+            System.out.println(name);
         }
-        System.out.println("sum of numbers "+sum);
+       
     }
 
     public static void main(String[] args) {
         add();
-        add(10);
-        add(12,20);
-        add(20,34,25);
-
+        add("naresh","rohit");
+        add("naresh","rohit","virat");
+        
+        
     }
     
 }

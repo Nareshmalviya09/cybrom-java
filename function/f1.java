@@ -1,5 +1,3 @@
-package function;
-
 import java.util.Arrays;
 
 public class f1 {
