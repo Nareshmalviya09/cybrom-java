@@ -1,3 +1,6 @@
+import student;
+
+package Oops;
 class ops9{
     public static void main(String[] args) {
         student obj =new student();

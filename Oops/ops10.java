@@ -1,3 +1,4 @@
+package Oops;
 class ops10{
  public static void main(String[] args) {
     b obj =new b();
