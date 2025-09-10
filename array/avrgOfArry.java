@@ -1,0 +1,24 @@
+package array;
+
+import java.util.Scanner;
+
+class avrgOfArry{
+    public static void main(String[] args) {
+        int a[]=new int[5];
+        int sum=0;
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter elements");
+        for(int i=0;i<a.length;i++){
+            a[i]=obj.nextInt();
+
+        }
+            System.out.println(" Arry element");
+             for(int i=0;i<a.length;i++){
+                sum = sum+a[i];
+            System.out.print(a[i]+" ");
+            
+        }
+          System.out.print("\naverage of aary ."+sum/a.length);
+
+    }
+}

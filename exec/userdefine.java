@@ -3,7 +3,7 @@ public class userdefine {
    public static void main(String[] args) {
     try {
        Vote(22);
-        
+
     } catch (Exception e) {
      System.out.println(e);
     }
