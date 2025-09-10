@@ -1,4 +1,4 @@
-package Oops;
+package oopps1;
 
 public class defaultCOns {
  public static void main(String[] args) {

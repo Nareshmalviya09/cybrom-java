@@ -1,4 +1,4 @@
-package Oops;
+package oopps1;
 
 //polymorephism compile time
 class ops8{

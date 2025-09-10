@@ -1,4 +1,4 @@
-package Oops;
+package oopps1;
 class op2{
 
     static boolean ifeven(int a){

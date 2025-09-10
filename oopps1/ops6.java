@@ -1,6 +1,6 @@
 import student;
 
-package Oops;
+package oopps1;
 class ops6{
 
     //inheritanc

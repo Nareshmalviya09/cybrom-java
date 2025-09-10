@@ -1,4 +1,4 @@
-package Oops;
+package oopps1;
 
 //polymorephism run time
 class ops7{
