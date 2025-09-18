@@ -1,3 +1,4 @@
+package StarPattern;
 class p6{
 
     //triangle

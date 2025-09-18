@@ -2,9 +2,8 @@ import java.util.Scanner;
 
 class pelibrmNo{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int num = sc.nextInt();
+         
+        int num =  127;
         int original = num;
         int rev= 0;
             while (num > 0) {
@@ -13,7 +12,10 @@ class pelibrmNo{
             num = num / 10;            
         }
         if (original == rev){
-
+                System.out.println("palindrom");
+        }
+        else{
+            System.out.println("not palin");
         }
       
     }

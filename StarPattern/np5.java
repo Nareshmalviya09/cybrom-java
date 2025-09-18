@@ -1,3 +1,4 @@
+package StarPattern;
 class np5{
     public static void main(String[]arg){
         for (int r=1; r<=5;r++){

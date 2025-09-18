@@ -10,7 +10,7 @@ public class bpStrintg {
             
         while(start<end){
            
-char temp=str.charAt(start);
+    char temp=str.charAt(start);
             if(temp=='{') curly++;
             else if(temp=='[') squre++;
             else if(temp=='(') circle++;

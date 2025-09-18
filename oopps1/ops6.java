@@ -1,5 +1,3 @@
-import student;
-
 package oopps1;
 class ops6{
 

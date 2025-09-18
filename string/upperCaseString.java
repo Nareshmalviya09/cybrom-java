@@ -4,7 +4,9 @@ public class upperCaseString {
         String str ="NARESH";
         int start=0;
         int end=str.length();
+
         char ch[]=new char[str.length()];
+
         while (start<end) {
             char c= str.charAt(start);
 
@@ -16,7 +18,7 @@ public class upperCaseString {
                 c=(char)(c+32);
              }
              
-             ch[start]=c;
+             ch[start] = c;
              start++;
               
         }

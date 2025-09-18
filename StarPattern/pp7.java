@@ -1,3 +1,4 @@
+package StarPattern;
 class pp7{
     public static void main(String[]arg){
         for (int r=1; r<=5;r++){

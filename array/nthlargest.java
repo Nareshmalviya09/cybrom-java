@@ -1,3 +1,4 @@
+package array;
 class nthlargest{
     public static void main(String[] args) {
         int arr[]={12,30,87,97,890,825,900};
