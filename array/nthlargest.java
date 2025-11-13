@@ -14,7 +14,7 @@ class nthlargest{
             }
          }
            }          
-            System.out.print(arr[n-1]);
+            System.out.print(arr[nx-1]);
             
              
     }
